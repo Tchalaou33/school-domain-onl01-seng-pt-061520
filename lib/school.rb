@@ -27,7 +27,7 @@ class School
       @roster[grade] = name.sort
     end
   end
-  
+end
   school=School.new("Bayside High School")
   school.add_student("Zach Morris", 9)
   school.add_student("Kelly Kapowski", 10)
